@@ -50,10 +50,24 @@ using namespace std;
 
 //写一个函数，函数内部将string字符串中的所有写字母都变为大写字母。
 
-void tesr11() {
-
+void test11() {
 	string str = "abcEFg";
 
+	for (int i = 0; i < str.size(); i++) {
+		str[i] = toupper(str[i]);
+	}
+	cout << str << endl;
+	for (int i = 0; i < str.size(); i++) {
+		str[i] = tolower(str[i]);
+	}
+	cout << str << endl;
+}
+
+void test08() {
+
+	string str = "hello";
+	str.insert(1, "111");
+	cout << str << endl;
 }
 
 int main()
@@ -62,8 +76,8 @@ int main()
 	//test02();
 	/*test09();*/
 	/*test10();*/
-
-
+	test08();
+	test11();
 
 	system("pause");
 	return EXIT_SUCCESS;

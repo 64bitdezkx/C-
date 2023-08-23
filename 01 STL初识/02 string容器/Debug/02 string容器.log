@@ -1,2 +1,4 @@
 ﻿  02string 容器.cpp
+G:\github\C++\Cpp\01 STL初识\02 string容器\02string 容器.cpp(56,20): warning C4018: “<”: 有符号/无符号不匹配
+G:\github\C++\Cpp\01 STL初识\02 string容器\02string 容器.cpp(60,20): warning C4018: “<”: 有符号/无符号不匹配
   02 string容器.vcxproj -> G:\github\C++\Cpp\01 STL初识\Debug\02 string容器.exe
